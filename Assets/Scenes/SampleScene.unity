@@ -320,18 +320,6 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 126437857}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &126437859 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8135886326569738823, guid: 56fae09712773584fb63896d473a98ee,
-    type: 3}
-  m_PrefabInstance: {fileID: 126437857}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ba0d0e7a039f526499c356a3c5cd6d3f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &291704628
 GameObject:
   m_ObjectHideFlags: 0
@@ -452,7 +440,7 @@ MonoBehaviour:
   controller: {fileID: 301142718}
   speedMovement: 7
   turnSmoothTime: 0.1
-  joystick: {fileID: 126437859}
+  joystick: {fileID: 1833086303}
   animator: {fileID: 0}
   isMoving: 0
   inputType: 0
@@ -809,3 +797,15 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1833086303 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8135886326569738823, guid: 56fae09712773584fb63896d473a98ee,
+    type: 3}
+  m_PrefabInstance: {fileID: 126437857}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba0d0e7a039f526499c356a3c5cd6d3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
